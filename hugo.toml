@@ -1,0 +1,14 @@
+baseURL = 'https://leoelsolh.com/'
+languageCode = 'en-us'
+title = 'Leo El-Solh'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'dark'
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+
+[params.homeInfoParams]
+  Title = "Leo El-Solh"
+  Content = "Threat intelligence, offensive security, LLM security, and field notes from someone learning out loud."
