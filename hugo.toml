@@ -1,6 +1,6 @@
 baseURL = 'https://leoelsolh.com/'
 languageCode = 'en-us'
-title = 'Leo El-Solh'
+title = 'leoelsolh'
 theme = 'PaperMod'
 
 [params]
@@ -10,5 +10,9 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
 
 [params.homeInfoParams]
-  Title = "Leo El-Solh"
-  Content = "Threat intelligence, offensive security, LLM security, and field notes from someone learning out loud."
+  Title = "Threat intelligence, offensive security, LLM security, and field notes from someone learning out loud."
+
+[params.assets]
+  favicon = "favicon.svg"
+  theme_color = "#0D1B2A"
+  msapplication_TileColor = "#0D1B2A"

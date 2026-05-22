@@ -1,0 +1,59 @@
+/* =========================================================
+   Deep Sea palette
+   Ink Black      #0D1B2A
+   Prussian Blue  #1B263B
+   Dusk Blue      #415A77
+   Lavender Grey  #778DA9
+   Alabaster Grey #E0E1DD
+   ========================================================= */
+
+:root[data-theme="dark"] {
+    --theme: #0D1B2A;          /* Ink Black     — page background        */
+    --entry: #1B263B;          /* Prussian Blue — cards / post entries   */
+    --primary: #E0E1DD;        /* Alabaster     — headings / strong text */
+    --secondary: #778DA9;      /* Lavender Grey — meta / muted text      */
+    --tertiary: #415A77;       /* Dusk Blue     — dividers / fills       */
+    --content: #C7CCD0;        /* softened Alabaster — body copy         */
+    --code-block-bg: #1B263B;  /* Prussian Blue — fenced code blocks     */
+    --code-bg: #243450;        /* Dusk-tinted   — inline code            */
+    --border: #415A77;         /* Dusk Blue     — borders                */
+}
+
+/* Home tagline — pulled up, smaller, lighter weight */
+.home-info.first-entry {
+    min-height: auto;
+    justify-content: flex-start;
+    margin: var(--gap) 0 calc(var(--gap) * 1.5) 0;
+}
+
+.home-info .entry-header h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--secondary);
+}
+
+/* Links inside post content pick up a Lavender Grey accent */
+.post-content a {
+    color: #8DA3BE;
+    box-shadow: 0 1px 0 #415A77;
+}
+
+.post-content a:hover {
+    color: #E0E1DD;
+    box-shadow: 0 1px 0 #778DA9;
+}
+
+/* Theme toggle — pushed to the far right of the header,
+   away from the site title so it reads as its own control */
+.logo {
+    flex: 1;
+}
+
+.logo-switches {
+    margin-left: auto;
+}
+
+.logo-switches .theme-toggle {
+    padding-right: 0;
+}
