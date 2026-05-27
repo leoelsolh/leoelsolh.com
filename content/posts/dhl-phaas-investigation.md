@@ -1,5 +1,5 @@
 ---
-title: "Chinese PhaaS Operation: DHL Sweden Smishing Investigation"
+title: "Chinese Phishing Operation: DHL Sweden Phaas Investigation"
 date: 2026-05-15T20:30:00+02:00
 draft: False
 description: "Looking into a Chinese Phishing-as-a-Service platform delivering DHL-branded smishing to Swedish targets, with a live operator WebSocket dashboard and a parallel Taiwan-targeted campaign on shared infrastructure."

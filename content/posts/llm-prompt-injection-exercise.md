@@ -9,6 +9,7 @@ Local LLM agents are being given web-fetching tools. Untrusted text is the inevi
 
 I tested Qwen 2.5 at two different sizes (1.5B and 3B) against identical indirect prompt injection payloads. Both models willingly complied with the injection in the majority of cases.
 
+Code: [github.com/leoelsolh/indirect-prompt-injection](https://github.com/leoelsolh/indirect-prompt-injection)
 
 **What is indirect prompt injection?**
 
@@ -93,4 +94,4 @@ Those gaps are on the roadmap.
 
 ---
 
-The scanner used for the v2 sweeps is at [github.com/leoelsolh/indirect-prompt-injection-scanner](https://github.com/leoelsolh/indirect-prompt-injection-scanner). It is research-grade, not production-ready, and the configuration is currently hardcoded for the models above. If you have run similar tests on other local models or see patterns this writeup missed, I would be interested to hear about it.
+The scanner used for the v2 sweeps is at [github.com/leoelsolh/indirect-prompt-injection](https://github.com/leoelsolh/indirect-prompt-injection). It is research-grade, not production-ready, and the configuration is currently hardcoded for the models above. If you have run similar tests on other local models or see patterns this writeup missed, I would be interested to hear about it.

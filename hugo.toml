@@ -16,3 +16,9 @@ theme = 'PaperMod'
   favicon = "favicon.svg"
   theme_color = "#0D1B2A"
   msapplication_TileColor = "#0D1B2A"
+
+[[menu.main]]
+  identifier = "github" 
+  name = "Github" 
+  url = "https://github.com/leoelsolh" 
+  weight = 1
