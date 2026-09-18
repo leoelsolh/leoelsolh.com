@@ -1,0 +1,19 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info home-hero">
+    <div class="hero-inner">
+        <div class="hero-lead">
+            <h1>{{ .Title | markdownify }}</h1>
+            {{- with .Content }}
+            <div class="hero-lead-content">
+                {{ . | $.Page.RenderString (dict "display" "block") }}
+            </div>
+            {{- end }}
+        </div>
+        <aside class="profile-card">
+            <img class="profile-avatar" src="{{ "avatar.jpg" | absURL }}" width="150" height="150"
+                alt="leoelsolh" loading="lazy">
+            <a class="profile-handle" href="https://github.com/leoelsolh" rel="me">@leoelsolh</a>
+        </aside>
+    </div>
+</article>
+{{- end -}}

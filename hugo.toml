@@ -10,10 +10,12 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
 
 [params.homeInfoParams]
-  Title = "Threat intelligence, offensive security, LLM security, and field notes from someone learning out loud."
+  Title = "Programming&nbsp;· scripting&nbsp;· offensive&nbsp;security"
 
 [params.assets]
-  favicon = "favicon.svg"
+  favicon = "falconhead.jpg"
+  favicon16x16 = "falconhead.jpg"
+  favicon32x32 = "falconhead.jpg"
   theme_color = "#0D1B2A"
   msapplication_TileColor = "#0D1B2A"
 
