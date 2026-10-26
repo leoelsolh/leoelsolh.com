@@ -1,9 +1,5 @@
 body, p, li, .post-content, article {
-    font-family: 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-}
-
-:root {
-    --heading-weight: 0.035em;
+    font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .logo a,
@@ -12,12 +8,17 @@ h1, h2, h3, h4, h5, h6,
 .page-header h1,
 .entry-header h1,
 .entry-header h2,
-.home-info .entry-header h1,
 .not-found,
 details.toc summary .title {
-    font-family: 'Righteous', 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    -webkit-text-stroke: var(--heading-weight) currentColor;
-    paint-order: stroke fill;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+h3, .post-content h3 {
+    letter-spacing: -0.015em;
+}
+
+code, pre, kbd, samp {
+    font-family: 'JetBrains Mono', ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace;
 }

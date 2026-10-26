@@ -9,8 +9,12 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
 
+[params.label]
+  text = "ELSOLH"
+
 [params.homeInfoParams]
-  Title = "Programming&nbsp;· scripting&nbsp;· offensive&nbsp;security"
+  Title = "Leo El-Solh"
+  Content = "Field notes on threat intelligence, offensive security, and LLM security. Findings are responsibly disclosed before publication."
 
 [params.assets]
   favicon = "falconhead.jpg"
@@ -20,7 +24,7 @@ theme = 'PaperMod'
   msapplication_TileColor = "#0D1B2A"
 
 [[menu.main]]
-  identifier = "github" 
-  name = "Github" 
-  url = "https://github.com/leoelsolh" 
+  identifier = "mail"
+  name = "Mail Me"
+  url = "mailto:leoelsolh@gmail.com"
   weight = 1
