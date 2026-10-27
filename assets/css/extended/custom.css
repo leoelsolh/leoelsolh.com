@@ -29,6 +29,12 @@ body {
     font-size: 17px;
 }
 
+@media screen and (max-width: 768px) {
+    :root {
+        --gap: 24px;
+    }
+}
+
 /* Rays: blurred rainbow glow behind the header, hue shifted per post */
 
 .rays {
