@@ -4,7 +4,7 @@ title = 'leoelsolh'
 theme = 'PaperMod'
 
 [params]
-  defaultTheme = 'dark'
+  defaultTheme = 'auto'
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
